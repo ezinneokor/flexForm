@@ -1,0 +1,169 @@
+:root{
+    background-color: #eee;
+}
+
+body{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    width: 95%;
+    /* justify-content: flex-start; */
+}
+
+.logo{
+    color: white;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1.2em;
+    width: 100%;
+}
+
+.sub-nav{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 1em;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    display: none;
+}
+
+/* .sub-nav a{
+    
+} */
+
+.nav-item{
+    margin-left: 1em;
+}
+
+.sub-nav-item{
+    margin-top: .5em;
+}
+
+li.nav-item a{
+    color: white;
+    text-decoration: none;
+    padding: .8em;
+}
+
+ul.nav-menu > li.nav-item:last-child > a{
+    background-color: green;
+}
+
+ul.nav-menu > li.nav-item:last-child{
+    margin-left: auto;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+}
+
+
+.section{
+    background-color: #eee;
+    flex-grow: 3;
+    padding: 1em;
+    /* flex-shrink: 3;
+    flex-basis: 10%; */
+
+}
+
+.aside{
+    background-color: gold;
+    flex-grow: 1;
+    /* flex-shrink: 3;
+    flex-basis: 10%; */
+}
+
+.aside h3{
+    padding: 1em;
+}
+
+.form{
+    margin: 2em auto 0 auto;
+    width: 30%;
+    background-color: gray;
+    padding: 2em 0;
+    border-radius: 1em;
+    transform: translateY(-170%);
+    transition: all 2s;
+    /* display: none; */
+}
+
+#btn{
+    background-color: red;
+    margin-left: 70%;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: .5em .4em;
+}
+
+label{
+    display: block;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li input{
+    width: 90%;
+    padding: .8em 0;
+    border-radius: 3px;
+    border: none;
+}
+
+ul>li + li{
+    margin-top: 1em;
+}
+
+ul li:nth-child(2)>small{
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+ul li:last-child>button{
+    background-color: green;
+    width:90% ;
+    padding: .8em 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+ul li:last-child>p{
+    margin-top:1em ;
+}
+
+ul li:last-child>p>strong{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+
+
+
+
+
